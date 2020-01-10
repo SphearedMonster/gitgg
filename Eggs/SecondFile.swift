@@ -13,4 +13,16 @@ class SecondFile {
     var id = 0
     var name = ""
     var test = "test"
+    var sirName = ""
+    
+    
+    func paladinsMatchMaking (_ tier: String) -> String{
+        
+        if tier == "Bronze"{
+            return "Grandmaster"
+        }else{
+            return "Bronze"
+        }
+        
+    }
 }
