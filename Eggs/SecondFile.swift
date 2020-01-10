@@ -13,4 +13,12 @@ class SecondFile {
     var id = 0
     var name = ""
     var test = "test"
+    
+    
+    // MARK: - Methods
+    func set(){
+        id = 232434
+        name = "Fin"
+        test = "+C"
+    }
 }
