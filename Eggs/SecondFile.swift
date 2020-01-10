@@ -13,6 +13,7 @@ class SecondFile {
     var id = 0
     var name = ""
     var test = "test"
+
     var sirName = ""
     
     
@@ -23,6 +24,14 @@ class SecondFile {
         }else{
             return "Bronze"
         }
-        
+    }
+
+    
+    
+    // MARK: - Methods
+    func set(){
+        id = 232434
+        name = "Fin"
+        test = "+C"
     }
 }
