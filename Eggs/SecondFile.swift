@@ -12,4 +12,5 @@ class SecondFile {
     
     var id = 0
     var name = ""
+    var test = "test"
 }
